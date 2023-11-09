@@ -1,0 +1,340 @@
+name: zuzu
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.1 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  shared_preferences: ^2.0.15
+  fluttertoast: ^8.1.2
+  google_mobile_ads: ^3.1.0
+  
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: true
+  image_path: "assets/zuzu_logo.png"
+  min_sdk_android: 21 
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/a3.ini
+    - assets/a4.ini
+    - assets/a5.ini
+    - assets/a6.ini
+    - assets/a7.ini
+    - assets/a8.ini
+    - assets/a9.ini
+    - assets/a10.ini
+    - assets/b3.ini
+    - assets/b4.ini
+    - assets/b5.ini
+    - assets/b6.ini
+    - assets/b7.ini
+    - assets/b8.ini
+    - assets/b9.ini
+    - assets/b10.ini
+    - assets/c3.ini
+    - assets/c4.ini
+    - assets/c5.ini
+    - assets/c6.ini
+    - assets/c7.ini
+    - assets/c8.ini
+    - assets/c9.ini
+    - assets/c10.ini
+    - assets/ç3.ini
+    - assets/ç4.ini
+    - assets/ç5.ini
+    - assets/ç6.ini
+    - assets/ç7.ini
+    - assets/ç8.ini
+    - assets/ç9.ini
+    - assets/ç10.ini
+    - assets/d3.ini
+    - assets/d4.ini
+    - assets/d5.ini
+    - assets/d6.ini
+    - assets/d7.ini
+    - assets/d8.ini
+    - assets/d9.ini
+    - assets/d10.ini
+    - assets/e3.ini
+    - assets/e4.ini
+    - assets/e5.ini
+    - assets/e6.ini
+    - assets/e7.ini
+    - assets/e8.ini
+    - assets/e9.ini
+    - assets/e10.ini
+    - assets/f3.ini
+    - assets/f4.ini
+    - assets/f5.ini
+    - assets/f6.ini
+    - assets/f7.ini
+    - assets/f8.ini
+    - assets/f9.ini
+    - assets/f10.ini
+    - assets/g3.ini
+    - assets/g4.ini
+    - assets/g5.ini
+    - assets/g6.ini
+    - assets/g7.ini
+    - assets/g8.ini
+    - assets/g9.ini
+    - assets/g10.ini
+    - assets/h3.ini
+    - assets/h4.ini
+    - assets/h5.ini
+    - assets/h6.ini
+    - assets/h7.ini
+    - assets/h8.ini
+    - assets/h9.ini
+    - assets/h10.ini
+    - assets/ı3.ini
+    - assets/ı4.ini
+    - assets/ı5.ini
+    - assets/ı6.ini
+    - assets/ı7.ini
+    - assets/ı8.ini
+    - assets/ı9.ini
+    - assets/ı10.ini
+    - assets/i3.ini
+    - assets/i4.ini
+    - assets/i5.ini
+    - assets/i6.ini
+    - assets/i7.ini
+    - assets/i8.ini
+    - assets/i9.ini
+    - assets/i10.ini
+    - assets/j3.ini
+    - assets/j4.ini
+    - assets/j5.ini
+    - assets/j6.ini
+    - assets/j7.ini
+    - assets/j8.ini
+    - assets/j9.ini
+    - assets/j10.ini
+    - assets/k3.ini
+    - assets/k4.ini
+    - assets/k5.ini
+    - assets/k6.ini
+    - assets/k7.ini
+    - assets/k8.ini
+    - assets/k9.ini
+    - assets/k10.ini
+    - assets/l3.ini
+    - assets/l4.ini
+    - assets/l5.ini
+    - assets/l6.ini
+    - assets/l7.ini
+    - assets/l8.ini
+    - assets/l9.ini
+    - assets/l10.ini
+    - assets/m3.ini
+    - assets/m4.ini
+    - assets/m5.ini
+    - assets/m6.ini
+    - assets/m7.ini
+    - assets/m8.ini
+    - assets/m9.ini
+    - assets/m10.ini
+    - assets/n3.ini
+    - assets/n4.ini
+    - assets/n5.ini
+    - assets/n6.ini
+    - assets/n7.ini
+    - assets/n8.ini
+    - assets/n9.ini
+    - assets/n10.ini
+    - assets/o3.ini
+    - assets/o4.ini
+    - assets/o5.ini
+    - assets/o6.ini
+    - assets/o7.ini
+    - assets/o8.ini
+    - assets/o9.ini
+    - assets/o10.ini
+    - assets/ö3.ini
+    - assets/ö4.ini
+    - assets/ö5.ini
+    - assets/ö6.ini
+    - assets/ö7.ini
+    - assets/ö8.ini
+    - assets/ö9.ini
+    - assets/ö10.ini
+    - assets/p3.ini
+    - assets/p4.ini
+    - assets/p5.ini
+    - assets/p6.ini
+    - assets/p7.ini
+    - assets/p8.ini
+    - assets/p9.ini
+    - assets/p10.ini
+    - assets/r3.ini
+    - assets/r4.ini
+    - assets/r5.ini
+    - assets/r6.ini
+    - assets/r7.ini
+    - assets/r8.ini
+    - assets/r9.ini
+    - assets/r10.ini
+    - assets/s3.ini
+    - assets/s4.ini
+    - assets/s5.ini
+    - assets/s6.ini
+    - assets/s7.ini
+    - assets/s8.ini
+    - assets/s9.ini
+    - assets/s10.ini
+    - assets/ş3.ini
+    - assets/ş4.ini
+    - assets/ş5.ini
+    - assets/ş6.ini
+    - assets/ş7.ini
+    - assets/ş8.ini
+    - assets/ş9.ini
+    - assets/ş10.ini
+    - assets/t3.ini
+    - assets/t4.ini
+    - assets/t5.ini
+    - assets/t6.ini
+    - assets/t7.ini
+    - assets/t8.ini
+    - assets/t9.ini
+    - assets/t10.ini
+    - assets/u3.ini
+    - assets/u4.ini
+    - assets/u5.ini
+    - assets/u6.ini
+    - assets/u7.ini
+    - assets/u8.ini
+    - assets/u9.ini
+    - assets/u10.ini
+    - assets/ü3.ini
+    - assets/ü4.ini
+    - assets/ü5.ini
+    - assets/ü6.ini
+    - assets/ü7.ini
+    - assets/ü8.ini
+    - assets/ü9.ini
+    - assets/ü10.ini
+    - assets/v3.ini
+    - assets/v4.ini
+    - assets/v5.ini
+    - assets/v6.ini
+    - assets/v7.ini
+    - assets/v8.ini
+    - assets/v9.ini
+    - assets/v10.ini
+    - assets/y3.ini
+    - assets/y4.ini
+    - assets/y5.ini
+    - assets/y6.ini
+    - assets/y7.ini
+    - assets/y8.ini
+    - assets/y9.ini
+    - assets/y10.ini
+    - assets/z3.ini
+    - assets/z4.ini
+    - assets/z5.ini
+    - assets/z6.ini
+    - assets/z7.ini
+    - assets/z8.ini
+    - assets/z9.ini
+    - assets/z10.ini
+    - assets/zuzu_logo.png
+
+
+
+
+
+
+
+#     - assets/X3.ini
+# - assets/X4.ini
+# - assets/X5.ini
+# - assets/X6.ini
+# - assets/X7.ini
+# - assets/X8.ini
+# - assets/X9.ini
+# - assets/X10.ini
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

@@ -1,0 +1,4 @@
+#Wed Nov 08 01:58:46 TRT 2023
+base.0=C\:\\Users\\Derda\\Desktop\\kelime-oyunu\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
